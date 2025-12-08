@@ -20,6 +20,11 @@ app.use('/applications', applicationsRoutes);
 
 app.use(errorHandler);
 
+app.get('/health', (req, res) => {
+    res.json({ status: 'ok' });
+  });
+  
+
 app.listen(PORT, () => {
   console.log(`API listening on port ${PORT}`);
 });
