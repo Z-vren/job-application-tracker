@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "97828f8c-5349-4ef8-a8dd-d80caa239dc3",
+      "email": "anonbgzee1827@gmail.com",
+      "passwordHash": "$2b$10$Nuo..4XNUzepgQffUwWuTuUy5aIkCu760afQ1B4Xu1qZW2yV8JPFK",
+      "createdAt": "2025-12-08T08:25:56.201Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "8922d4ac-bf87-4fdc-b5b8-ec6a7b1d181d",
+      "userId": "97828f8c-5349-4ef8-a8dd-d80caa239dc3",
+      "company": "abc",
+      "role": "data scientist",
+      "status": "Interview",
+      "appliedDate": "2025-12-03",
+      "deadline": null,
+      "notes": "",
+      "createdAt": "2025-12-08T08:51:59.998Z",
+      "updatedAt": "2025-12-08T08:52:14.324Z"
+    }
+  ]
+}
