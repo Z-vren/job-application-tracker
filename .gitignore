@@ -4,3 +4,5 @@ npm-debug.log*
 yarn.lock
 .expo
 .expo-shared
+backend/data/db.json
+
