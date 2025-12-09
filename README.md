@@ -2,9 +2,18 @@
 
 Full-stack demo for tracking job/internship applications. Backend is Node.js + Express with JWT auth; frontend is an Expo (React Native) app using React Navigation. Data is stored in a simple JSON file for quick setup.
 
-## Tech stack
-- Backend: Node.js, Express, JWT, bcrypt, file-backed store
-- Mobile: Expo (React Native), React Navigation, Context API
+## Live Backend
+
+The Node/Express API is deployed on Railway:
+
+- Base URL: https://job-application-tracker-production-4656.up.railway.app
+- Health check: https://job-application-tracker-production-4656.up.railway.app/health
+
+## Tech Stack
+
+- Backend: Node.js, Express, JWT auth, file-based JSON DB
+- Frontend: React Native (Expo) job application tracker UI
+- Deployment: Railway (Node service)
 
 ## Folder structure
 - `backend/` – API (Express + JWT + file store)

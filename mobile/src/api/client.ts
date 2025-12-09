@@ -3,7 +3,10 @@ import { Application, ApplicationInput, AuthResponse } from '../types';
 
 const localBase =
   Platform.OS === 'android' ? 'http://10.0.2.2:4000' : 'http://localhost:4000';
-const API_BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL || localBase;
+const API_BASE_URL =
+  process.env.NODE_ENV === 'development'
+    ? localBase
+    : 'https://job-application-tracker-production-4656.up.railway.app';
 
 type RequestOptions = {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
